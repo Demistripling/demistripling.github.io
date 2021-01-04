@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https:demistripling.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 16:38:44 +0800</lastBuildDate><atom:link href="https:demistripling.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git的使用</title>
+      <link>https:demistripling.github.io/post/git%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 04 Jan 2021 16:38:44 +0800</pubDate>
+      
+      <guid>https:demistripling.github.io/post/git%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <description>Git的使用 1、Git的安装及环境配置 Git官网
+下载完成安装过程中后无脑next 安装完成后在开始菜单中会有Git项，菜单下有三个程序；任意文件夹下右键也可以看到对应的程序 2、基本的linux命令 cd：改变目录 cd .. ：返回上级目录 cd ../.. ：返回上上级目录 cd + 指定文件 ：进入当前路径下的指定文件 pwd：显示当前目录 clear：清屏，等同windows cls ls：列出当前目录的所有文件 touch + 文件：新建文件 rm + 文件：移除一个文件 mkdir + 文件：创建一个目录,就是新建一个文件夹 rm -r + 名称：删除一个文件夹 mv + 文件名1 + 目录：将文件1移动到指定目录中 reset：重新设置 history：历史命令 3、Git的配置 git config -l：当前项目下关于git的配置 git config --system --list ：查看系统配置 git config --global --list:查看本地配置（用户名，邮箱） 如何修改系统配置：在git安装目录--&amp;gt;Git--&amp;gt;etc--&amp;gt;gitconfig文件，打开文件即可修改 如何修改用户名，邮箱？：在c盘--&amp;gt;用户--&amp;gt;dn--&amp;gt;.gitconfig文件中可见 git config --global user.name 和 git config --global user.email配置用户名与邮箱名 4、Git的工作原理（核心） Git本地共有三个工作区域：工作目录（Working Directory）、暂存区（Stage）、资源库(Repository)。如果在加上远程的git仓库(Remote Directory)就可以分为四个工作区域。文件在这四个区域的转换关系如下： 5、Git的项目搭建 工作目录一般就是你希望Git帮助你管理的文件夹，可以是你项目的目录，也可以是一个空目录（不要有中文）。 git命令:git init(初始化一个本地项目) git clone（克隆一个远程仓库的文件） 6、Git文件操作 文件的四种状态： 版本控制就是对文件的版本控制，要对文件进行修改、提交等操作，首先要知道文件当前处在什么状态，不然可能会提交了还不想提交的文件，或者重要的文件没提交上。</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https:demistripling.github.io/post/blog/</link>
+      <pubDate>Sun, 03 Jan 2021 19:01:01 +0800</pubDate>
+      
+      <guid>https:demistripling.github.io/post/blog/</guid>
+      <description> 2021要减肥 </description>
+    </item>
+    
+  </channel>
+</rss>
